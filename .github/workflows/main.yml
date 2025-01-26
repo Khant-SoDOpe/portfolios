@@ -34,4 +34,4 @@ jobs:
         git config --global user.email "khantzay.ly@gmail.com"
         git add sitemap.xml
         git commit -m "Update <lastmod> in sitemap.xml [skip-sitemap]"
-        git push https://x-access-token:${{ secrets.AK_PORTFOLIO }}@github.com/arkerphyo92/portfolio.git HEAD:main
+        git push https://x-access-token:${{ secrets.GOOGLE }}@github.com/arkerphyo92/portfolio.git HEAD:main
